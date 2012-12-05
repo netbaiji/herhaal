@@ -2,10 +2,10 @@
 require File.expand_path('../lib/herhaal/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Teodor Pripoae"]
-  gem.email         = ["teodor.pripoae@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["Teodor Pripoae", "Alexandru Tache"]
+  gem.email         = ["toni@netbaiji.com", "hadesgames@netbaiji.com"]
+  gem.description   = %q{Easy deploy a web application to a new server}
+  gem.summary       = %q{Easy deploy a web application to a new server}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,10 @@ Gem::Specification.new do |gem|
   gem.name          = "herhaal"
   gem.require_paths = ["lib"]
   gem.version       = Herhaal::VERSION
+
+  gem.add_development_dependency "rspec", "2.11"
+  gem.add_development_dependency "growl"
+  gem.add_development_dependency "autotest"
+  gem.add_development_dependency "autotest-growl"
+  gem.add_development_dependency "vagrant"
 end
