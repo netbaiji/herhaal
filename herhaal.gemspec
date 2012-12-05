@@ -14,6 +14,9 @@ Gem::Specification.new do |gem|
   gem.name          = "herhaal"
   gem.require_paths = ["lib"]
   gem.version       = Herhaal::VERSION
+  
+  gem.add_dependency 'thor',  ['>= 0.15.4', '< 2']
+  gem.add_dependency 'net-ssh'
 
   gem.add_development_dependency "rspec", "2.11"
   gem.add_development_dependency "growl"

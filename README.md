@@ -1,6 +1,6 @@
 # Herhaal
 
-TODO: Write a gem description
+Manage web application installation with a DSL coding markup.
 
 ## Installation
 

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+# Load the Herhaal core library
+require File.expand_path("../../lib/herhaal", __FILE__)
+
+# Load the Herhaal command line interface utility
+require File.expand_path("../../lib/herhaal/cli/utility", __FILE__)
+
+# Initialize the Herhaal command line utility
+Herhaal::CLI::Utility.start
